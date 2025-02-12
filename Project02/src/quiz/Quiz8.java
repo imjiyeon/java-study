@@ -2,7 +2,7 @@ package quiz;
 
  
 //  <형변환>
-//  변수 두개를 선언해서 10과 2.0을 대입하고, 두 변수를 이용해서 사칙연산을 수행하세요.
+//  변수 두개를 선언해서 10과 2.0을 대입하고, 두 변수를 더한 결과를 구하세요.
 //  그리고 결과는 정수로 출력해주세요.
   
 public class Quiz8 {
@@ -10,14 +10,15 @@ public class Quiz8 {
 		int i = 10;
 		float f = 2.0f;
 
-		System.out.println((int) (i + f));
-		System.out.println((int) (i - f));
-		System.out.println((int) (i * f));
-		System.out.println((int) (i / f));
+		// 풀이
+		// 컴퓨터는 계산하기 전에 두항의 타입을 일치시킨후에 계산함
+		// int + float -> float + float = 10.0 + 2.0 = 12.0
+		System.out.println(i + f); // 12.0
 		
-		//풀이
-		float result = i + f; // 오른쪽식에서 int와 float를 계산할때, 자동형변환규칙에 의해 int가 float으로 변경
-		//결과는 float이 되었고, 그결과를 int형으로 강제 형변환한 것 
+		// 1. 더한 결과를 int형으로 형변환
+		System.out.println((int) (i + f)); // 12
+		// 2. float을 int형으로 형변환한 후 더하기
+		System.out.println(i + (int)f); // 12
 
 	}
 }
