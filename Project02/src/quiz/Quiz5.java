@@ -10,8 +10,8 @@ package quiz;
 public class Quiz5 {
 	public static void main(String[] args) {
 		// 정답:
-		String name = "임지연";
-		int age = 34;
+		String name = "둘리";
+		int age = 10;
 		char gender = 'F';
 		boolean isMarried = false;
 	}

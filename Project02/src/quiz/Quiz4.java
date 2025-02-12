@@ -16,7 +16,7 @@ public class Quiz4 {
 		int b = -1000; // short, int, long 타입 사용 가능
 		float c = 1.15f; // float, double 타입 사용 가능
 		char d = 'a'; // char 타입 사용 가능
-		String e = "2023년은 토끼띠 입니다"; // String 사용 가능
+		String e = "2025년은 뱀띠 입니다"; // String 사용 가능
 
 	}
 }
