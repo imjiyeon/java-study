@@ -7,14 +7,14 @@ public class Ex6 {
 
 	public static void main(String[] args) {
 		
-		int x = 5;
-		int y = 10;
-		
-		boolean result1 = (x > 0) && (y > 0); // true && true 
+		boolean result1 = (5 > 0) && (10 > 0); // true && true
 		boolean result2 = (5 > 0) && (10 < 0); // true && false
+		
+		// 첫번째식이 true이므로 두번째식은 계산안함
 		boolean result3 = (5 > 0) || (10 > 0); // true||true
 		boolean result4 = (5 > 0) || (10 < 0); // true||false
-		boolean result5 = !(x > 0); //!(true)
+		
+		boolean result5 = !true; // true -> false
 		
 		System.out.println(result1);
 		System.out.println(result2);
