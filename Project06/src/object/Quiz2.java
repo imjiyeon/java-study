@@ -9,11 +9,16 @@ package object;
 public class Quiz2 {
 
 	public static void main(String[] args) {
-		Student2 student = new Student2("둘리", 50000); // 5만원을 가진 둘리라는 학생을 만든다
-		Taxi taxi = new Taxi("70합 1234"); // 70합 1234 차넘버의 택시를 만든다
-		student.takeTaxi(taxi); // 둘리가 택시를 탄다
-		student.showInfo(); // 둘리의 현재정보를 출력한다
-		taxi.showInfo(); // 택시의 현재정보를 출력한다
+		// 학생과 택시를 생성한다
+		Student2 student = new Student2("둘리", 20000);
+		Taxi taxi = new Taxi("70합 1234");
+
+		// 둘리가 택시를 탄다
+		student.takeTaxi(taxi);
+
+		// 둘리와 택시의 현재상태를 출력한다
+		student.showInfo();
+		taxi.showInfo();
 	}
 }
 
@@ -49,16 +54,14 @@ class Student2 {
 		this.money = money;
 	}
 
-	// 지하철에 타서 요금 10000원을 지불하는 메소드
+	// 학생이 택시에 타는 메소드
 	public void takeTaxi(Taxi taxi) {
-
 		if (money < 10000) {
 			System.out.println("소지금이 적어 택시를 탈 수 없습니다..");
 			return;
 		}
-
-		taxi.take(10000); // 10000원 지불
-		this.money = this.money - 10000; // 가진돈 10000원을 잃음
+		taxi.take(10000); // 택시요금으로 10000원을 냄
+		this.money = this.money - 10000; // 가진돈에서 10000원 빼기
 	}
 
 	public void showInfo() {
