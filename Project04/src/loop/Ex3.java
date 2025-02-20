@@ -6,7 +6,7 @@ package loop;
 public class Ex3 {
 
 	public static void main(String[] args) {
-		//반복문없이 처리
+		//반복문없이 작성
 		// 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
 		int sum = 0;
 		sum = sum + 1;
@@ -25,7 +25,7 @@ public class Ex3 {
 		//2.조건문(반복횟수) -> 10번
 		//3.반복하고 싶은 코드 -> sum에 숫자를 더하는 동작
 
-//		//반복문으로 처리
+//		//반복문으로 작성
 //		int num = 1; //더할 숫자
 //		int sum = 0; //합계를 저장할 변수
 //		

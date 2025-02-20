@@ -10,7 +10,23 @@ public class Quiz5 {
 
 	public static void main(String[] args) {
 
+		// 배열 생성 및 초기화
 		int[] arr = new int[] { 5, 20, 100, 30, 77 };
+
+		// 가장 큰값 찾기
+		// 하나씩 비교
+		//5 20 => 20
+		//20 100 => 100
+		//100 30 => 100
+		//100 77 => 100
+
+		//arr[0] arr[1]
+		//max arr[2]
+		//max arr[3]
+		//max arr[4]
+
+		//max: 둘 중에 더 큰값
+		//index: 0~4
 
 		// 최대값을 저장하기 위한 변수
 		// 배열의 첫번째 값으로 최대값을 초기화
