@@ -25,7 +25,7 @@ public class Quiz4 {
 
 }
 
-// 몬스터 클래스
+// 몬스터
 class Monster {
 	int atack; // 공격력
 	int health; // 체력
@@ -39,7 +39,7 @@ class Monster {
 	}
 }
 
-//슬라임 클래스
+//슬라임
 class Slime extends Monster {
 	String skill; // 스킬
 

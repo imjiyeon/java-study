@@ -44,10 +44,13 @@ class Person {
 	}
 }
 
-class Student extends Person {
+class Student extends Person { // 상속받을 때 에러남!
 
 	// 상속받으면 에러남. 이름을 초기화하는 생성자를 만들어야함
 	public Student(String name) {
+		// super() => 부모의 생성자를 호출
+		// 부모는 기본생성자가 없음
+		// 생성자에 이름을 넣어줘야함
 		super(name);
 	}
 

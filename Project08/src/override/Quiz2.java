@@ -4,6 +4,8 @@ package override;
  * 커피,아메리카노,카페라떼 클래스를 정의하세요.
  * 커피클래스에서 상속받은 taste() 메소드를 재정의하세요
  * */
+
+// 오버라이드 + 형변환
 public class Quiz2 {
 	public static void main(String[] args) {
 		Coffee coffee1 = new Coffee();

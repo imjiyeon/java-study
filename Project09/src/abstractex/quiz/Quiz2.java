@@ -26,8 +26,8 @@ public class Quiz2 {
 
 //자동차 클래스
 abstract class Car2 {
-	
-	// 자동차가 달리고, 기름을 넣는 기능은 모든 자동차가 가지고 있는 기능
+
+	// 주행,주유는 공통 기능
 	public abstract void run();
 
 	public abstract void refuel();
@@ -47,7 +47,7 @@ class Bus extends Car2 { // 상속받기
 		System.out.println("천연 가스를 충전 합니다.");
 	}
 
-	// 버스에 승객을 태우는 기능은 버스만 사용함
+	// 버스에 승객을 태우는 기능은 버스의 고유 기능
 	public void takePassenger() {
 		System.out.println("승객을 버스에 태웁니다.");
 	}
@@ -66,7 +66,7 @@ class AutoCar extends Car2 {
 		System.out.println("휘발유를 주유합니다.");
 	}
 
-	// 차에 짐을 싣는 기능은 오토카만 사용함
+	// 차에 짐을 싣는 기능은 오토카의 고유 기능
 	public void load() {
 		System.out.println("짐을 싣습니다.");
 	}

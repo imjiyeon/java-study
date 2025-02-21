@@ -9,7 +9,8 @@ public class Ex2 {
 		Customer customer1 = new Customer("둘리");
 		customer1.calcPrice(10000);
 		customer1.showInfo();
-		
+
+		// 부모타입으로 형변환
 		Customer customer2 = new VIPCustomer("또치"); // VIP 회원을 Customer형으로 선언
 		customer2.calcPrice(10000); //재정의된 메소드가 호출되어 할인가로 계산됨
 		customer2.showInfo();

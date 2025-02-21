@@ -23,9 +23,9 @@ public class Quiz2 {
 		System.out.println();
         
 		SmartTV tv2 = new SmartTV();
-		tv2.isPowerOn = true;
-		tv2.channel = 30;
-		tv2.volume = 12;
+		tv2.isPowerOn = true; // 부모가 물려준 속성
+		tv2.channel = 30; // 부모가 물려준 속성
+		tv2.volume = 12; // 부모가 물려준 속성
 		tv2.ip = "192.168.0.111";
 		tv2.showInfo();
 	}

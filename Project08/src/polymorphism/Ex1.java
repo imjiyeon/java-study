@@ -6,6 +6,8 @@ package polymorphism;
 public class Ex1 {
 
 	public static void main(String[] args) {
+
+		// 부모타입으로 형변환
 		Animal human = new Human(); //Human 인스턴스를 Animal형으로 변환
 		Animal tiger = new Tiger(); //Tiger 인스턴스를 Animal형으로 변환
 		Animal eagle = new Eagle(); //Eagle 인스턴스를 Animal형으로 변환
