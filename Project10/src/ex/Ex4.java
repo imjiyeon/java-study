@@ -8,6 +8,11 @@ import java.util.Scanner;
 public class Ex4 {
 	public static void main(String[] args) {
 
+		// 연습문제 풀기 전에 Scanner 클래스 사용하기
+//		Scanner scanner = new Scanner(System.in);
+//		int num = scanner.nextInt(); // 숫자를 입력받는 메소드 사용하기 (숫자 입력 + 엔터)
+//		System.out.println(num);
+
 		System.out.println("전화 상담 할당 방식을 선택하세요.");
 		System.out.println("1 : 한명씩 차례로 할당 ");
 		System.out.println("2 : 쉬고 있거나 대기가 가장 적은 상담원에게 할당 ");
