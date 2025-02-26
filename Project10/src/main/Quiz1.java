@@ -1,4 +1,4 @@
-package ex;
+package main;
 
 /*
  * Calc 타입 변수를 선언하고 Calculator형 인스턴스를 대입하세요.

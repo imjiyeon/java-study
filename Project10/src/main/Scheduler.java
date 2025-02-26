@@ -1,4 +1,4 @@
-package ex;
+package main;
 
 /*
  * 스케줄러 인터페이스 만들기

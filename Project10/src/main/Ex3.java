@@ -1,4 +1,4 @@
-package ex;
+package main;
 
 /*
  * 새로운 버전의 계산기 클래스 만들기
