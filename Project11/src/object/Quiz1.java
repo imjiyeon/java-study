@@ -17,23 +17,13 @@ public class Quiz1 {
 
 	public static void main(String[] args) {
 
-		MyDate date1 = new MyDate(2024,7,22);
-		MyDate date2 = new MyDate(2024,7,22);
+		MyDate date1 = new MyDate(2025, 2, 26);
+		MyDate date2 = new MyDate(2025, 2, 26);
+		System.out.println(date1.equals(date2));
 
-		if (date1.equals(date2)) {
-			System.out.println("date1와 date2는 같은 날짜입니다.");
-		} else {
-			System.out.println("date1와 date2는 같은 날짜가 아닙니다.");
-		}
-
-		MyDate date3 = new MyDate(2024,7,21);
-		MyDate date4 = new MyDate(2024,7,22);
-
-		if (date3.equals(date4)) {
-			System.out.println("date3와 date4는 같은 날짜입니다.");
-		} else {
-			System.out.println("date3와 date4는 같은 날짜가 아닙니다.");
-		}
+		MyDate date3 = new MyDate(2025, 2, 26);
+		MyDate date4 = new MyDate(2025, 2, 27);
+		System.out.println(date3.equals(date4));
 	}
 }
 
@@ -53,10 +43,8 @@ class MyDate {
 	public boolean equals(Object obj) {
 
 		if (obj instanceof MyDate) {
-
 			MyDate date = (MyDate) obj;
-
-			if(this.year == date.year && this.month == date.month && this.day == date.day) {
+			if (this.year == date.year && this.month == date.month && this.day == date.day) {
 				return true;
 			}
 		}
@@ -65,3 +53,4 @@ class MyDate {
 	}
 
 }
+
