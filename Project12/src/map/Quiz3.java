@@ -12,21 +12,24 @@ public class Quiz3 {
 
 	public static void main(String[] args) {
 
-		// map 생성
+		// float -> Float
 		HashMap<String, Float> map = new HashMap<>();
 
 		// 데이터 추가
-		map.put("국어", 80.0f); // float타입 표기
+		map.put("국어", 80.0f); // 식별자f 표기
 		map.put("수학", 90.0f);
 		map.put("영어", 100.0f);
 
-		// map 순회
+		// key 목록
 		Set<String> keySet = map.keySet();
+		System.out.println("과목명: " + keySet);
 		for (String key : keySet) {
 			System.out.println("[과목명]:" + key + " [점수]:" + map.get(key));
 		}
 
+		// value 목록
 		Collection<Float> values = map.values();
+		System.out.println("점수: " + values);
 		for (float value : values) {
 			System.out.println("[점수]:" + value);
 		}
