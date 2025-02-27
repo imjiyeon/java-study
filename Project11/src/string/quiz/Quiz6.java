@@ -11,6 +11,12 @@ import java.util.*;
 public class Quiz6 {
 
 	public static void main(String[] args) {
+
+//		// while(조건) : 조건을 만족할 때까지 반복
+//		// 조건이 항상 true라면? 무한루프에 빠진다..
+//		while(true) {
+//			System.out.println("안녕하세요");
+//		}
 		
 		Scanner sc = new Scanner(System.in);
 		

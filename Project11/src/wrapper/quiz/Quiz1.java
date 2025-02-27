@@ -10,7 +10,8 @@ public class Quiz1 {
 
 	public static void main(String[] args) {
 
-		// 문자열을 숫자로 변환하려면 "parse" 메소드를 사용해야함	
+		// 활용도****
+		// 문자열을 다른 타입으로 변환할때는 "parse" 메소드를 사용한다
 		byte bNum = Byte.parseByte("10"); //"10" -> 10
 		short sNum = Short.parseShort("10");
 		int iNum = Integer.parseInt("10");
