@@ -15,6 +15,7 @@ public class Ex2 {
 		// 1.한번 생성하고 사용한 스트림은 재사용할 수 없다
 		List<Integer> list = Arrays.asList(5, 1, 2, 4, 3, 3); // 리스트 생성
 		Stream<Integer> stream = list.stream(); // 스트림 생성
+
 		// forEach: 반복적인 작업을 수행함
 		// Consumer를 람다식 함수로 구현해서 인자로 넣음
 		stream.forEach(n -> System.out.print(n)); // 리스트 안에 값을 하나씩 출력
