@@ -15,7 +15,6 @@ public class Ex3 {
 			// 에러가 발생됬을 때 에러 객체를 매개변수로 받음
 		} catch (IndexOutOfBoundsException e) { // 예외 클래스 변수를 매개변수로 선언	
 			System.out.println(e); // 예외가 발생하면 처리할 코드 작성
-			
 		}
 
 		System.out.println("프로그램이 정상 종료됩니다."); // 에러가 나도 마지막 문장이 실행됨
