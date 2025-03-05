@@ -13,16 +13,15 @@ public class Quiz09 {
 
 	public static void main(String[] args) throws IOException {
 
-		// 디렉토리 경로
-		String filepath1 = "e:\\Users\\205-T\\Downloads";
-
-		String filepath2 = "D:\\imjiyeon\\tools";
-
-		// 출력 스트림
-		FileWriter fw = new FileWriter("quiz9.txt");
-
+		// 출력 스트림 생성
+		FileWriter fw1 = new FileWriter("quiz9-1.txt");
 		// 함수 호출
-		printFileList(filepath2, fw);
+		printFileList("C:\\Users\\G201\\Downloads", fw1);
+
+		// 출력 스트림 생성
+		FileWriter fw2 = new FileWriter("quiz9-2.txt");
+		// 함수 호출
+		printFileList("D:\\imjiyeon", fw2);
 
 	}
 
