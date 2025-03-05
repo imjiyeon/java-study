@@ -15,7 +15,7 @@ public class Quiz1 {
 //			System.out.println("0으로 나눌 수 없습니다");
 //		}
 
-		System.out.println("프로그램이 정상 종료됩니다.");
+		System.out.println("프로그램이 정상적으로 종료되었습니다");
 
 	}
 

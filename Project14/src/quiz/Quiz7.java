@@ -23,6 +23,8 @@ public class Quiz7 {
 		int num3 = iterator.next();
 		int num4 = iterator.next();
 
+		System.out.println("프로그램이 정상적으로 종료되었습니다");
+
 //		try {
 //			// 숫자 목록 생성
 //			Set<Integer> set = new HashSet<>();

@@ -7,9 +7,10 @@ public class Quiz2 {
 		// 다음 코드를 실행하면 에러가 발생합니다.
 		// 프로그램이 정상적으로 종료되도록 예외처리를 해주세요.
 
+		// 인스턴스 없이 참조변수를 사용하면 에러남
 		String s = null;
 		System.out.println(s.length());
-		System.out.println("프로그램이 정상 종료됩니다.");
+		System.out.println("프로그램이 정상적으로 종료되었습니다");
 		
 //		try {
 //			String s = null;

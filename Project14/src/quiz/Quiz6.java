@@ -7,6 +7,7 @@ public class Quiz6 {
 		//Book.class 파일 지우고 프로그램을 실행하면 NoClassDefFoundError 에러가 발생합니다.
 		// 프로그램이 정상적으로 종료되도록 예외처리를 해주세요.
 		Book book = new Book();
+		System.out.println("프로그램이 정상적으로 종료되었습니다");
 		
 //		try {
 //			Book book = new Book(); // 클래스를 찾을 수 없어서 에러남

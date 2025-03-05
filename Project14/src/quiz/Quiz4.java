@@ -9,6 +9,7 @@ public class Quiz4 {
 
 		String str = "1.23";
 		int num = Integer.parseInt(str);
+		System.out.println("프로그램이 정상적으로 종료되었습니다");
 
 //		try {
 //			String str= "1.23";

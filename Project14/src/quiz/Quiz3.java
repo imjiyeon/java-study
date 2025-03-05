@@ -9,7 +9,7 @@ public class Quiz3 {
 
 		Object obj = new Integer(0);
 		String str = (String) obj;
-		System.out.println("프로그램이 정상 종료됩니다.");
+		System.out.println("프로그램이 정상적으로 종료되었습니다");
 
 //		try {
 //			Object obj = new Integer(0);
