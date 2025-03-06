@@ -29,7 +29,7 @@ public class Quiz08 {
 			File file = files[i];
 			String filename = file.getName();
 			fw.write(filename);
-			fw.write("\n");
+			fw.write("\n"); // 줄바꿈
 		}
 
 		// 버퍼 비우기

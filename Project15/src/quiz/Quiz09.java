@@ -22,6 +22,8 @@ public class Quiz09 {
 		FileWriter fw2 = new FileWriter("quiz9-2.txt");
 		// 함수 호출
 		printFileList("D:\\imjiyeon", fw2);
+		
+		// 함수를 이용하여 두 폴더의 파일 목록을 각각 출력
 
 	}
 
