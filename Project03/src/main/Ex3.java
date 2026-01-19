@@ -1,26 +1,26 @@
 package main;
 
 /*
- * 산술연산자
+ * 수학과 영어의 평균점수 구하기
  * */
 public class Ex3 {
 
 	public static void main(String[] args) {
 
-		int result1 = 10 + 2; // 더하기
-		int result2 = 10 - 2; // 빼기 
-		int result3 = 10 * 2; // 곱하기
-		int result4 = 10 / 2; // 나누기
-		int result5 = 10 % 2; // 나머지
+		int math = 93; //수학점수
+		int eng = 70; //영어점수
 		
-		System.out.println(result1); // 합이 12
-		System.out.println(result2); // 결과가 8
-		System.out.println(result3); // 결과가 20
-		System.out.println(result4); // 몫이 5
-		System.out.println(result5); // 나머지가 0 
-		// 이 결과의 의미는 무엇일까? -> 10은 짝수이다
-	    // 반대로 나머지가 1이라면? oo는 홀수이다
+		// 총점 계산
+		int hap = math + eng;
+		System.out.println(hap); // 163
 		
-		//나머지 연산자는 숫자가 짝수인지 홀수인지 확인하는 문제에서 많이 사용!
+		// 평균 점수 계산
+		// int / int  => int  (소수점 버려짐)
+		System.out.println(hap/2); // 80
+		
+		// 계산식에서 두항의 타입이 다르면 더 큰 타입(double) 기준으로 계산됨
+		// int/double => double/double
+		System.out.println(hap/2.0); // 81.5
+
 	}
 }

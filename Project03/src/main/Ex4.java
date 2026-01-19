@@ -1,32 +1,23 @@
 package main;
 
 /*
- * 산술연산자의 연산 과정 이해하기
+ * 비교연산자
  * */
 public class Ex4 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {	
+		
+		// 학생의 시험점수
+		int score = 70;
+		// 점수가 60점이상이면 시험 통과
+		System.out.println(score >= 60); // 값이 더 큰지 검사
 
-		// 수학점수와 영어점수의 총점 구하기
-		int mathScore = 93; //수학점수
-		int engSccore = 70; //영어점수
-		
-		//총점 계산
-		int totalScore = mathScore + engSccore;
-		System.out.println(totalScore); // 163
-		
-		// 가장 정확한 평균점수를 구하는 방법은 무엇일까?
-		
-		// 1. int형 변수에 결과를 저장하고 2로 나누기
-		int avgScore1 = totalScore / 2; // int/int
-		System.out.println(avgScore1); //81
-		
-		// 2. double형 변수에 결과 저장하고 2로 나누기
-		double avgScore2 = totalScore / 2; // int/int
-		System.out.println(avgScore2); //81.0
-		
-		// 3. double형 변수에 결과 저장하고 2.0으로 나누기    *정답
-		double avgScore3 = totalScore / 2.0; //  int/double  double/double
-		System.out.println(avgScore3); //81.5
+		// 회원가입시 등록한 비밀번호
+		int password = 1111; 
+		// 로그인시 비밀번호 검사하여 일치하면 로그인 성공
+		System.out.println(password == 1234); // 같은지 검사
+		// 로그인시 비밀번호 검사하여 다르면 경고메세지 출력
+		System.out.println(password != 1234); // 다른지 검사
+
 	}
 }
