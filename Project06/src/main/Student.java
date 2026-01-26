@@ -16,4 +16,13 @@ public class Student {
         System.out.println("학번:" + id + ", 이름:" + name);
     }
 
+    // 생성자1
+    public Student() {
+    }
+
+    // 생성자2
+    public Student(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 }

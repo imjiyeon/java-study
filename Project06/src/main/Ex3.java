@@ -1,32 +1,22 @@
 package main;
 
 /*
-* 메소드 만들기
+* 생성자
 * */
 public class Ex3 {
 
     public static void main(String[] args) {
+
+        // 첫번째 학생 생성
+        Student student1 = new Student(1001, "둘리");
+        student1.id = 1001; // 객체의 멤버변수를 사용해서 학번 입력
+        student1.name = "둘리";
+        student1.showInfo();
+
+        // 두번째 학생 생성
+        Student student2 = new Student(1002, "또치"); // 객체 생성과 동시에 학생의 정보를 입력
+        student2.showInfo();
         
-        // 더하기 함수 호출하고 결과 받기
-        int result = add(3, 4);
-        System.out.println(result); // 결과 확인
-
-        // 빼기 함수 호출하기
-        subtract(10, 5);
-    }
-
-    // 두 수를 더하는 함수
-    // 접근제어자 반환타입 함수이름 매개변수
-    // 매개변수: 숫자 두개
-    // 반환값: 숫자
-    public static int add(int n1, int n2) {
-        return n1 + n2; // 반환 타입과 실제 반환값의 자료형은 일치해야 한다
-    }
-
-    // 빼기 함수
-    public static void subtract(int n1, int n2) {
-        int result = n1 - n2;
-        System.out.println(result); // 결과 바로 출력
     }
 
 }
