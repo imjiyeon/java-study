@@ -45,13 +45,13 @@ public class MethodQuiz {
     // 출력 예시: "20 - 10 = 10"
     // 2) 입력값 예시: 10, 20
     // 출력 예시: "계산할 수 없습니다"
-    public static void sub(int n1, int n2) {
-        if (n1 < n2) {
-            System.out.println("계산할 수 없습니다");
-        } else {
-            int result = n1 - n2;
-            System.out.println(n1 + " - " + n2 + " = " + result);
-        }
-    }
+//    public static void sub(int n1, int n2) {
+//        if (n1 < n2) {
+//            System.out.println("계산할 수 없습니다");
+//        } else {
+//            int result = n1 - n2;
+//            System.out.println(n1 + " - " + n2 + " = " + result);
+//        }
+//    }
 
 }
